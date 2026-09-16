@@ -13,4 +13,3 @@ spec:
   - protocol: TCP
     port: 80 #service-port
     targetPort: {{ .Values.configmap.port }} #target-port
----
