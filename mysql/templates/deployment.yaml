@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: {{ .Values.deployment.imageVersion }}
+        image: mysql:{{ .Values.deployment.imageVersion }}
         readinessProbe:
           tcpSocket:
             port: {{ .Values.deployment.port }}
