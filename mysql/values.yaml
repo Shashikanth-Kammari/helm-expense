@@ -1,4 +1,4 @@
 deployment:
-  imageVersion: joindevops/mysql:v1.0
+  imageVersion: v1.0
   port: 3306
   replicas: 3
