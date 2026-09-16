@@ -3,3 +3,5 @@ deployment:
   imageVersion: v1.0
 configmap:
   HOST: db-dev.daws78s.online
+service:
+  port: 3306
